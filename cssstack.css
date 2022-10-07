@@ -9,7 +9,7 @@
 .header{
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid whitesmoke;
+	margin: 1px whitesmoke;
 }
 .header_left{
 	display: flex;
@@ -24,10 +24,11 @@
 }
 .header_left span input{
 	padding: 8px;
-	margin-left: 20px;
+	margin: 0px 20px;
 	border: none;
+	background-color: white;
 	cursor: pointer;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .header_left span input:hover{
 	background-color: #d6d4d4;
@@ -38,19 +39,16 @@
 	border: 1px solid black;
 }
 .header_middle img{
-	padding: 1px;
 	width: 20px;
-	margin-top: 5px;
+	margin: 5px;
 }
 .header_middle input{
 	font-size: medium;
-	border: none;
+	border: transparent;
 	margin-top: 5px;
 	margin-bottom: 5px;
-}
-.header_right{
-	display: flex;
-	align-items: center;
+	width: 750px;
+	outline: none;
 }
 .header_right{
   	display: flex;
@@ -58,7 +56,7 @@
   	padding-right: 20px;
 }
 .header_right span{
-  	padding: 10px;
+	margin-left: 20px;
   	cursor: pointer;
 }
 .header_right span img{
@@ -67,32 +65,80 @@
 .header_right span img:hover{
 	background-color: #d6d4d4;
 }
-.sidebar{
-  	flex: 0.3;
-  	max-width: 300px;
-  	padding-right: 20px;
-}
-body{
-  	height: 100vh;
-  	overflow-y: hidden;
-}
 .main_body{
   	display: flex;
-  	height: 100vh;
 }
-.sidebar_option{
+sidebar{
+	flex: 1;
+}
+.sidebar_option1{
   	display: flex;
   	align-items: center;
-  	height: 40px;
   	padding: 0 10px;
-  	border-top-right-radius: 20px;
-  	border-bottom-right-radius: 20px;
   	cursor: pointer;
   	color: #818181;
+	margin-rightt: 10px solid grey;
 }
-.sidebar_option h3{
+.sidebar_option1 h6{
   	flex: 1;
-  	margin-left: 10px;
-  	font-size: 14px;
+	padding: 20px;
+  	font-size: 12px;
   	font-weight: 400;
+}
+.sidebar_option1 h6:hover{
+	color: black;
+}
+.sidebar_option2{
+  	display: flex;
+  	align-items: center;
+  	padding: 0 10px;
+  	color: #818181;
+	margin-rightt: 10px solid grey;
+}
+.sidebar_option2 h6{
+  	flex: 1;
+	padding: 20px;
+  	font-size: 12px;
+  	font-weight: 400;
+}
+.sidebar_option3{
+  	display: flex;
+  	align-items: center;
+  	padding: 0 8px;
+  	cursor: pointer;
+  	color: #818181;
+	margin-rightt: 10px solid grey;
+}
+.sidebar_option3 h6{
+  	flex: 1;
+	padding: 15px;
+  	font-size: 12px;
+  	font-weight: 400;
+}
+.sidebar_option3 h6:hover{
+	color: black;
+}
+.sidebar_option3 span img{
+	width: 20px;
+}
+.sidebar_option4{
+  	display: flex;
+  	align-items: center;
+  	padding: 0 8px;
+  	cursor: pointer;
+  	color: #818181;
+	margin-rightt: 10px solid grey;
+}
+.sidebar_option4 h6{
+  	flex: 1;
+	padding: 15px;
+  	font-size: 12px;
+  	font-weight: 400;
+}
+.sidebar_option4 h6:hover{
+	color: black;
+}
+.jonskeet span img{
+	width: 130px;
+	cursor: pointer;
 }
