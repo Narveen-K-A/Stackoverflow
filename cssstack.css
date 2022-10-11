@@ -2,11 +2,9 @@
 	padding: 0;
 	margin: 0;
 	font-family: arial,san-serif;
-}
-.border{
-	border-top: 3px solid orange;
-}
+}	
 .header{
+	border-top: 3px solid orange;
 	display: flex;
 	align-items: center;
 	border-bottom: 2px solid #c4c2bc;
@@ -56,7 +54,7 @@
   	padding-right: 20px;
 }
 .header_right span{
-	margin-left: 20px;
+	padding: 18px;
   	cursor: pointer;
 }
 .header_right span img{
@@ -69,92 +67,66 @@
   	display: flex;
 }
 .sidebar{
-	flex: 0.15;
-	border-right: 2px solid #c4c2bc;
 	position: sticky;
+	flex: 0.3;
+	max-width: 170px;
+	padding-left: 35px;
+	border-right: 2px solid #c4c2bc;
+	color: grey;
 }
-.sidebar_option1{
-  	display: flex;
-  	align-items: center;
-  	padding: 0 10px;
-  	cursor: pointer;
-  	color: #818181;
-}
-.sidebar_option1 h6{
-  	flex: 1;
-	padding: 20px;
-  	font-size: 12px;
-  	font-weight: 400;
-}
-.sidebar_option1 h6:hover{
-	color: black;
-}
-.sidebar_option2{
-  	display: flex;
-  	align-items: center;
-  	padding: 0 10px;
-  	color: #818181;
-	margin-rightt: 10px solid grey;
-}
-.sidebar_option2 h6{
-  	flex: 1;
-	padding: 20px;
-  	font-size: 12px;
-  	font-weight: 400;
-}
-.sidebar_option3{
-  	display: flex;
-  	align-items: center;
-  	padding: 0 8px;
-  	cursor: pointer;
-  	color: #818181;
-	margin-rightt: 10px solid grey;
-}
-.sidebar_option3 h6{
-  	flex: 1;
-	padding: 15px;
-  	font-size: 12px;
-  	font-weight: 400;
-}
-.sidebar_option3 h6:hover{
-	color: black;
-}
-.sidebar_option3 span img{
+.sidebar_options img{
 	width: 20px;
 }
-.sidebar_option4{
-  	display: flex;
-  	align-items: center;
-  	padding: 0 8px;
-  	cursor: pointer;
-  	color: #818181;
-	margin-rightt: 10px solid grey;
-}
-.sidebar_option4 h6{
-  	flex: 1;
-	padding: 15px;
-  	font-size: 12px;
-  	font-weight: 400;
-}
-.sidebar_option4 h6:hover{
+.active{
+	background-color: #ebebeb;
+	border-right: 3px solid #f48225;
+	font-weight: 800;
 	color: black;
+	margin: 20px 0px 25px 0px;
+    	padding: 10px 1px 10px 1px;
+    	width: 142px;
+}
+.sidebar_options div{
+	font-size: 12px;
+	font-weight: 100;
+}
+.pointer{
+	cursor: pointer;
+}
+.display{
+	display: flex;
+}
+.home:hover, .questions:hover,
+.question_sub:hover,
+.expcollect:hover, 
+img:hover{
+	color: black;
+}
+.margin{
+	margin: 20px;
+}
+.qsmargin{
+	margin: 3px 0px 2px 5px;
+}
+.question_sub{
+	margin: 25px;
+}
+.active{
+	margin: 25px 25px 25px 0px;
+}
+.collectives img{
+	margin: -3px 0px 0px 15px;
+}
+.expcollect{
+	margin: 0px 0px 0px 20px;
+}
+.exp{
+	margin: 3px 0px 0px 0px;
 }
 .jonskeet{
 	display: flex;
 }
-.jonskeet div img{
+.jonskeet img{
+	padding: 10px 0px 0px 20px;
 	width: 130px;
-	cursor: pointer;
 }
-.jonskeet div h1{
-	font-weight: 400;
-}
-footer .footer{
-	color: white;
-	background-color: black;
-	float: left;
-}
-.site_license a{
-	color: white;
-}
-
