@@ -3,63 +3,62 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="D:/Narveen/Stackoverflow/Style/cssstack.css">
+		<link rel="stylesheet" href="Style/cssstack.css">
 		<title>Stack Overflow</title>
 	</head>
 	<body>
 		<div class="header">
 			<div class="header_left">
 				<span class="material_icons">
-					<img src="Assets/stackoverflow.png">
+					<img src="Assets/stackoverflow.png" alt="Stack Overflow">
 				</span>
 				<span class="button">
 					<input type="button" value="Products">
 				</span>
 			</div>
 			<div class="header_middle">
-				<img src="D:/Narveen/Stackoverflow/Assets/search.png">
+				<img src="Assets/search.png" alt="Search">
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="header_right">
-				<span class="material_icons"><img src="Assets/dp.png"></span>
-				<h4>1</h4>
-				<span class="material_icons"><img src="Assets/inbox.png"></span>
-				<span class="material_icons"><img src="Assets/badge.png"></span>
-				<span class="material_icons"><img src="Assets/help.png"></span>
-				<span class="material_icons"><img src="Assets/menu.png"></span>
+				<span class="material_icons"><img src="Assets/dp.png" alt="DP"></span>
+				<span class="material_icons"><img src="Assets/inbox.png" alt="Inbox"></span>
+				<span class="material_icons"><img src="Assets/badge.png" alt="Badge"></span>
+				<span class="material_icons"><img src="Assets/help.png" alt="Help"></span>
+				<span class="material_icons"><img src="Assets/menu.png" alt="Menu"></span>
 			</div>		
 		</div>
 		<div class="main_body">
 			<div class="sidebar">
 				<div class="sidebar_options">
-					<div class="home pointer margin">
+					<div class="home pointer margin font">
 						<div>Home</div>
 					</div>
-					<div class="public margin">
+					<div class="public margin font">
 						<div>PUBLIC</div>
 					</div>
-					<div class="questions pointer display margin">
+					<div class="questions pointer display margin font">
 						<img class="pointer" src="Assets/questions.png" alt="Questions">
 						<div class="qsmargin">Questions</div>
 					</div>
 					<div class="question_sub pointer">
-						<div>Tags</div>
-						<div class="active">Users</div>
-						<div>Companies</div>
+						<div class="font padding_left">Tags</div>
+						<div class="active padding_left">Users</div>
+						<div class="font padding_left">Companies</div>
 					</div>
-					<div class="collectives display margin">
+					<div class="collectives display margin font">
 						<div>COLLECTIVES</div>
 						<img class="pointer" src="Assets/info.png" alt="Info">
 					</div>
-					<div class="expcollect pointer display">
+					<div class="expcollect pointer display font">
 						<img class="pointer" src="Assets/explore.png" alt="Explore Collectives">
 						<div class="exp">Explore Collectives</div>
 					</div>
-					<div class="collectives display margin">
+					<div class="collectives display margin font">
 						<div>TEAMS</div>
 						<img class="pointer" src="Assets/info.png" alt="Info">
 					</div>
-					<div class="expcollect pointer display">
+					<div class="expcollect pointer display font">
 						<img class="pointer" src="Assets/team.png" alt="Free Team">
 						<div class="exp">Create Free Team</div>
 					</div>	
@@ -68,29 +67,29 @@
 			<div class="flex">
 				<div class="jonskeet">
 					<div class="image">
-						<img src="Assets/jonskeet.png" alt="jonskeet">
+						<img class="pointer" src="Assets/jonskeet.png" alt="jonskeet">
 					</div>
 					<div class="text">
 						<div class="jonskeet_text">
 							Jon Skeet
 						</div>
 						<div class="member">
-							<img src="Assets\cake.png" alt="Cake">
+							<img src="Assets/cake.png" alt="Cake">
 							<span class="member_text">Member for 14 years</span>
-							<img src="Assets\time.png" alt="Time">
+							<img src="Assets/time.png" alt="Time">
 							<span class="member_text">Last seen this week</span>
 						</div>
 						<div class="twitter">
-							<img src="Assets\twitter.png" alt="Twitter">
-							<img src="Assets\github.png" alt="Github">
-							<img src="Assets\link.png" alt="link">
-							<span class="member_text">csharpindepth.com</span>
-							<img src="Assets\Pin.png" alt="Pin">
+							<img class="pointer" src="Assets/twitter.png" alt="Twitter">
+							<img class="pointer" src="Assets/cat.png" alt="Github">
+							<img src="Assets/link.png" alt="link">
+							<span class="member_text pointer">csharpindepth.com</span>
+							<img src="Assets/Pin.png" alt="Pin">
 							<span class="member_text">Reading, United Kingdom</span>
 						</div>
 					</div>
 					<div class="profile">
-						<input class="pointer" type="button" value="Profiles">
+						<select class="out"><option>profiles</option></select>
 					</div>
 				</div>
 				<div class="buttons display">
@@ -106,7 +105,7 @@
 								<div class="small">repuation</div>
 								<div class="big">35,499</div>
 								<div class="small">answers</div>
-								<img src="Assets\trophy.png" alt="trophy">
+								<img src="Assets/trophy.png" alt="trophy">
 								<div class="small">top <b>0.01%</b> overall</div>
 							</div>
 							<div class="first_col">
@@ -118,7 +117,7 @@
 						</div>
 						Collectives
 						<div class="stats display pointer">
-							<div class="cloud_image"><img src="Assets\googlecloud.png" alt="Cloud"></div>
+							<div class="cloud_image"><img src="Assets/cloud.png" alt="Cloud"></div>
 							<div>
 								<div class="big">Google Cloud</div>
 								<div class="small">2021●Employee</div>
@@ -127,11 +126,11 @@
 						Communities
 						<div class="stats display pointer">
 							<div class="community_images">
-								<div><img src="Assets\stack.png" alt="Stack Overflow"></div>
-								<div><img src="Assets\meta.png" alt="Meta"></div>
-								<div><img src="Assets\superuser.png" alt="Super user"></div>
-								<div><img src="Assets\serverfault.png" alt="Server Fault"></div>
-								<div><img src="Assets\softeng.png" alt="Software Engineering"></div>
+								<div><img src="Assets/stack.png" alt="Stack Overflow"></div>
+								<div><img src="Assets/meta.png" alt="Meta"></div>
+								<div><img src="Assets/superuser.png" alt="Super user"></div>
+								<div><img src="Assets/serverfault.png" alt="Server Fault"></div>
+								<div><img src="Assets/softeng.png" alt="Software Engineering"></div>
 							</div>
 							<div class="community_texts">
 								<div class="padding">Stack Overflow</div>
@@ -169,53 +168,189 @@
 							<div class="badges_outline display">
 								<div class="gold display">
 									<div>
-										<div><img src="Assets\sbadge.png" alt="gold"></div>
-										<div><button><span class="dot_gold">&#8226;</span>delegates</button></div> 
-										<div><button><span class="dot_gold">&#8226;</span>inheritance</button></div>
-										<div><button><span class="dot_gold">&#8226;</span>casting</button></div>
+										<div><img src="Assets/gbadge.png" alt="gold"></div>
+										<div><button class="pointer outline"><span class="dot_gold">&#8226;</span>delegates</button></div> 
+										<div><button class="pointer outline"><span class="dot_gold">&#8226;</span>inheritance</button></div>
+										<div><button class="pointer outline"><span class="dot_gold">&#8226;</span>casting</button></div>
 									</div>
 									<div>
 										<div class="bigger">836</div>
 										<div class="smaller">gold badges</div>
-										<div class="very_small">Jul 6, 2019</div>
-										<div class="very_small">Jun 6, 2020</div>
 										<div class="very_small">Apr 6, 2011</div>
+										<div class="very_small">Nov 12, 2011</div>
+										<div class="very_small">Mar 1, 2012</div>
 									</div>
 								</div>
 								<div class="gold display">
 									<div>
-										<div><img src="Assets\bbadge.png" alt="gold"></div>
-										<div><button><span class="dot_gold">&#8226;</span>delegates</button></div> 
-										<div><button><span class="dot_gold">&#8226;</span>inheritance</button></div>
-										<div><button><span class="dot_gold">&#8226;</span>casting</button></div>
+										<div><img src="Assets/sbadge.png" alt="silver"></div>
+										<div><button class="pointer outline"><span class="dot_silver">&#8226;</span>overloading</button></div> 
+										<div><button class="pointer outline"><span class="dot_silver">&#8226;</span>overriding</button></div>
+										<div><button class="pointer outline"><span class="dot_silver">&#8226;</span>expression</button></div>
 									</div>
 									<div>
-										<div class="bigger">836</div>
-										<div class="smaller">gold badges</div>
-										<div class="very_small">Jul 6, 2019</div>
-										<div class="very_small">Jun 6, 2020</div>
-										<div class="very_small">Apr 6, 2011</div>
+										<div class="bigger">8,987</div>
+										<div class="smaller">silver badges</div>
+										<div class="very_small">Feb 10, 2019</div>
+										<div class="very_small">Jun 19, 2019</div>
+										<div class="very_small">Mar 12, 2020</div>
 									</div>
 								</div>
 								<div class="gold display">
 									<div>
-										<div><img src="Assets\gbadge.png" alt="gold"></div>
-										<div><button><span class="dot_gold">&#8226;</span>delegates</button></div> 
-										<div><button><span class="dot_gold">&#8226;</span>inheritance</button></div>
-										<div><button><span class="dot_gold">&#8226;</span>casting</button></div>
+										<div><img src="Assets/bbadge.png" alt="bronze"></div>
+										<div><button class="pointer outline"><span class="dot_bronze">&#8226;</span>superclass</button></div> 
+										<div><button class="pointer outline"><span class="dot_bronze">&#8226;</span>xmlreader</button></div>
+										<div><button class="pointer outline"><span class="dot_bronze">&#8226;</span>indexoutofboundse...</button></div>
 									</div>
 									<div>
-										<div class="bigger">836</div>
-										<div class="smaller">gold badges</div>
-										<div class="very_small">Jul 6, 2019</div>
-										<div class="very_small">Jun 6, 2020</div>
-										<div class="very_small">Apr 6, 2011</div>
+										<div class="bigger">9,094</div>
+										<div class="smaller">bronze badges</div>
+										<div class="very_small">Jul 23, 2014</div>
+										<div class="very_small">Aug 2, 2014</div>
+										<div class="very_small">Mar 30, 2014</div>
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="postlist">
+							Top tags
+							<div class="alltags allposts">
+								<div class="justify display tags">
+									<div>
+										<button class="blue">c#</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>257,318 score 19,845 posts 56 posts %</div>
+								</div>
+								<div class="justify display tags">
+									<div>
+										<button class="blue">java</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>154,845 score 10,571 posts 30 posts %</div>
+								</div>
+								<div class="justify display tags">
+									<div>
+										<button class="blue">.net</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>89,277 score 5,610 posts 16 posts %</div>
+								</div>
+								<div class="justify display tags">
+									<div>
+										<button class="blue">linq</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>37,242 score 2,995 posts 8 posts %</div>
+								</div>
+								<div class="justify display tags">
+									<div>
+										<button class="blue">string</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>24,074 score 1,007 posts 3 posts %</div>
+								</div>
+								<div class="justify display tags">
+									<div>
+										<button class="blue">generics</button>
+										<span class="dot_gold">&#8226;</span>
+									</div>
+									<div>21,666 score 1,284 posts 4 posts %</div>
+								</div>
+							</div>
+						</div>
+						<div class="postlist">
+							Top posts
+							<div class="allposts">
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">11684</span><a href="#">Why is subtracting these two times (in 1927) giving a strange result?</a>Jul 27, 2011</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">4653</span><a href="#">Why is char[] preferred over String for passwords?</a>Jan 16, 2012</div>
+								<div class="posts tags"><img src="Assets/greyA.png" alt="GreyA"><span class="greyA">3747</span><a href="#">What is the difference between String and string in C#?</a>Oct 18, 2008</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">3302</span><a href="#">How do I call one constructor from another in Java?</a>Nov 12, 2008</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">3114</span><a href="#">What are the correct version numbers for C#?</a>Oct 29, 2008</div>
+								<div class="posts tags"><img src="Assets/greenQ.png" alt="GreenQ"><span class="greenA">2819</span><a href="#">What are the correct version numbers for C#?</a>Oct 29, 2008</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2665</span><a href="#">How do I break out of nested loops in Java?</a>May 20, 2009</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2515</span><a href="#">What is a serialVersionUID and why should I use it?</a>Nov 12, 2008</div>
+								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2505</span><a href="#">Difference between decimal, float and double in .NET?</a>Mar 6, 2009</div>
+								<div class="posts tags"><img src="AssetsgreenA.png" alt="GreenA"><span class="greenA">1996</span><a href="#">Group by in LINQ</a>Sep 6, 2011</div>
+							</div>
+						<div>
+						<div class="postlist">
+							Top Meta posts
+							<div class="allposts">
+								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">931</span><a href="#">Congratulations for reaching a million, Gordon Linoff!</a></div>
+								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">806</span><a href="#">Stack Overflow question checklist</a></div>
+								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">466</span><a href="#">Are we being "elitist"? Is there something wrong with that?</a></div>
+								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">204</span><a href="#">What should I do about a user that I'm trying to help and is calling me stupid</a></div>
+								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">169</span><a href="#">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms?</a></div>			 
+							</div>
+						</div>
+						<div class="postlist">
+							Top Network posts
+							<div class="allposts">
+								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">870</span><a href="#">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</a></div>
+								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">821</span><a href="#">Jon Skeet Facts</a></div>
+								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">298</span><a href="#">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</a></div>
+								<div class="post tags"><img src="Assets/serverfault.png" alt="Server Fault"><span class="greyA">268</span><a href="#">Shell command to monitor changes in a file</a></div>
+								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">181</span><a href="#">Please show us when we lose an accepted answer</a></div>
+							</div>	
+						</div>
 					</div>
 				</div>		
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="footer display">
+			<div class="col">
+				<img src="Assets/stackImage.png" alt="stack">
+			</div>
+			<div>
+          			<div class="footer_title">STACK OVERFLOW</div>
+          			<div class="lists">Questions</div>
+          			<div class="lists">Help</div>
+        		</div>
+        		<div>
+          			<div class="footer_title">PRODUCTS</div>
+          			<div class="lists">Teams</div>
+          			<div class="lists">Advertising</div>
+          			<div class="lists">collectives</div>
+          			<div class="lists">Talent</div>
+        		</div>
+        		<div>
+          			<div class="footer_title">COMPANY</div>
+          			<div class="lists">About</div>
+          			<div class="lists">Press</div>
+          			<div class="lists">Work Here</div>
+          			<div class="lists">Legal</div>
+          			<div class="lists">Privacy Policy</div>
+          			<div class="lists">Terms of Service</div>
+          			<div class="lists">Contact Us</div>
+          			<div class="lists">Cookie Settings</div>
+          			<div class="lists">Cookie Policy</div>
+        		</div>
+        		<div>
+          			<div class="footer_title">STACK EXCHANGE NETWORK</div>
+          			<div class="lists">Technology</div>
+          			<div class="lists">Culture & recreation</div>
+          			<div class="lists">Life & arts</div>
+          			<div class="lists">Science</div>
+          			<div class="lists">Professional</div>
+          			<div class="lists">Business</div>
+          			<div class="lists">API</div>
+          			<div class="lists">Data</div>
+        		</div>
+          		<div>
+				<div class="social display justify">
+            				<div class="listSocial">Blog</div>
+            				<div class="listSocial">Facebook</div>
+            				<div class="listSocial">Twitter</div>
+            				<div class="listSocial">LinkedIn</div>
+            				<div class="listSocial">Instagram</div>
+          			</div>
+          			<div class="license">
+            				<div class="listSocial">Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under <a href="#">CC BY-SA</a>. rev 2022.10.7.15380 </div>
+          			</div>
 			</div>
 		</div>
 	</body>
