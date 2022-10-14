@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="Style/cssstack.css">
-		<title>Stack Overflow</title>
+		<link rel="shortcut icon" href="Assets/stack.png">
+		<title>User Jon Skeet-Stack Overflow</title>
 	</head>
 	<body>
 		<div class="header">
@@ -21,30 +22,40 @@
 				<input type="text" placeholder="Search...">
 			</div>
 			<div class="header_right">
-				<span class="material_icons"><img src="Assets/dp.png" alt="DP"></span>
-				<span class="material_icons"><img src="Assets/inbox.png" alt="Inbox"></span>
-				<span class="material_icons"><img src="Assets/badge.png" alt="Badge"></span>
-				<span class="material_icons"><img src="Assets/help.png" alt="Help"></span>
-				<span class="material_icons"><img src="Assets/menu.png" alt="Menu"></span>
+				<span class="material_icons">
+					<img src="Assets/dp.png" alt="DP">
+				</span>
+				<span class="material_icons">
+					<img src="Assets/inbox.png" alt="Inbox">
+				</span>
+				<span class="material_icons">
+					<img src="Assets/badge.png" alt="Badge">
+				</span>
+				<span class="material_icons">
+					<img src="Assets/help.png" alt="Help">
+				</span>
+				<span class="material_icons">
+					<img src="Assets/menu.png" alt="Menu">
+				</span>
 			</div>		
 		</div>
 		<div class="main_body">
 			<div class="sidebar">
 				<div class="sidebar_options">
 					<div class="home pointer margin font">
-						<div>Home</div>
+						<div class="hover">Home</div>
 					</div>
 					<div class="public margin font">
 						<div>PUBLIC</div>
 					</div>
 					<div class="questions pointer display margin font">
 						<img class="pointer" src="Assets/questions.png" alt="Questions">
-						<div class="qsmargin">Questions</div>
+						<div class="qsmargin hover">Questions</div>
 					</div>
 					<div class="question_sub pointer">
-						<div class="font padding_left">Tags</div>
+						<div class="font padding_left hover">Tags</div>
 						<div class="active padding_left">Users</div>
-						<div class="font padding_left">Companies</div>
+						<div class="font padding_left hover">Companies</div>
 					</div>
 					<div class="collectives display margin font">
 						<div>COLLECTIVES</div>
@@ -52,7 +63,7 @@
 					</div>
 					<div class="expcollect pointer display font">
 						<img class="pointer" src="Assets/explore.png" alt="Explore Collectives">
-						<div class="exp">Explore Collectives</div>
+						<div class="exp hover">Explore Collectives</div>
 					</div>
 					<div class="collectives display margin font">
 						<div>TEAMS</div>
@@ -60,7 +71,7 @@
 					</div>
 					<div class="expcollect pointer display font">
 						<img class="pointer" src="Assets/team.png" alt="Free Team">
-						<div class="exp">Create Free Team</div>
+						<div class="exp hover">Create Free Team</div>
 					</div>	
 				</div>
 			</div>
@@ -214,110 +225,255 @@
 							</div>
 						</div>
 						<div class="postlist">
-							Top tags
+							<div class="display justify">
+								<div>
+									Top tags
+								</div>
+								<div class="small_font pointer">
+									view all tags
+								</div>
+							</div>
 							<div class="alltags allposts">
 								<div class="justify display tags">
 									<div>
 										<button class="blue">c#</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>257,318 score 19,845 posts 56 posts %</div>
+									<div>257,318 <span class="small_font">score</span> 19,845 <span class="small_font">posts</span> 56 <span class="small_font">posts %</span></div>
 								</div>
 								<div class="justify display tags">
 									<div>
 										<button class="blue">java</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>154,845 score 10,571 posts 30 posts %</div>
+									<div>154,845 <span class="small_font">score</span> 10,571 <span class="small_font">posts</span> 30 <span class="small_font">posts %</span></div>
 								</div>
 								<div class="justify display tags">
 									<div>
 										<button class="blue">.net</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>89,277 score 5,610 posts 16 posts %</div>
+									<div>89,277 <span class="small_font">score</span> 5,610 <span class="small_font">posts</span> 16 <span class="small_font">posts %</span></div>
 								</div>
 								<div class="justify display tags">
 									<div>
 										<button class="blue">linq</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>37,242 score 2,995 posts 8 posts %</div>
+									<div>37,242 <span class="small_font">score</span> 2,995 <span class="small_font">posts</span> 8 <span class="small_font">posts %</span></div>
 								</div>
 								<div class="justify display tags">
 									<div>
 										<button class="blue">string</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>24,074 score 1,007 posts 3 posts %</div>
+									<div>24,074 <span class="small_font">score</span> 1,007 <span class="small_font">posts</span> 3 <span class="small_font">posts %</span></div>
 								</div>
 								<div class="justify display tags">
 									<div>
 										<button class="blue">generics</button>
 										<span class="dot_gold">&#8226;</span>
 									</div>
-									<div>21,666 score 1,284 posts 4 posts %</div>
+									<div>21,666 <span class="small_font">score</span> 1,284 <span class="small_font">posts</span> 4 <span class="small_font">posts %</span></div>
 								</div>
 							</div>
 						</div>
 						<div class="postlist">
-							Top posts
-							<div class="allposts">
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">11684</span><a href="#">Why is subtracting these two times (in 1927) giving a strange result?</a>Jul 27, 2011</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">4653</span><a href="#">Why is char[] preferred over String for passwords?</a>Jan 16, 2012</div>
-								<div class="posts tags"><img src="Assets/greyA.png" alt="GreyA"><span class="greyA">3747</span><a href="#">What is the difference between String and string in C#?</a>Oct 18, 2008</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">3302</span><a href="#">How do I call one constructor from another in Java?</a>Nov 12, 2008</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">3114</span><a href="#">What are the correct version numbers for C#?</a>Oct 29, 2008</div>
-								<div class="posts tags"><img src="Assets/greenQ.png" alt="GreenQ"><span class="greenA">2819</span><a href="#">What are the correct version numbers for C#?</a>Oct 29, 2008</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2665</span><a href="#">How do I break out of nested loops in Java?</a>May 20, 2009</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2515</span><a href="#">What is a serialVersionUID and why should I use it?</a>Nov 12, 2008</div>
-								<div class="posts tags"><img src="Assets/greenA.png" alt="GreenA"><span class="greenA">2505</span><a href="#">Difference between decimal, float and double in .NET?</a>Mar 6, 2009</div>
-								<div class="posts tags"><img src="AssetsgreenA.png" alt="GreenA"><span class="greenA">1996</span><a href="#">Group by in LINQ</a>Sep 6, 2011</div>
+							<div>
+								<div class="display justify">
+									<div>Top posts</div>
+									<div class="display justify">
+										<div class="small_font greyA back">All</div>
+										<div class="small_font greyA">Questions</div>
+										<div class="small_font greyA">Answers</div>
+										<div class="small_font greyA">Articles</div>
+										<div class="small_font greyA back">Questions</div>
+										<div class="small_font greyA">Answers</div>
+									</div>
+									
+								</div>
+								<div>
+									<div class="small_font">View all <span class="link_color">questions, answers,</span> and <span class="link_color">articles</span></div>
+								</div>
 							</div>
-						<div>
-						<div class="postlist">
-							Top Meta posts
 							<div class="allposts">
-								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">931</span><a href="#">Congratulations for reaching a million, Gordon Linoff!</a></div>
-								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">806</span><a href="#">Stack Overflow question checklist</a></div>
-								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">466</span><a href="#">Are we being "elitist"? Is there something wrong with that?</a></div>
-								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">204</span><a href="#">What should I do about a user that I'm trying to help and is calling me stupid</a></div>
-								<div class="post tags"><img src="Assets/meta2.png" alt="Meta"><span class="greyA">169</span><a href="#">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms?</a></div>			 
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">11684</span>
+										<span class="link_color">Why is subtracting these two times (in 1927) giving a strange result?</span>
+									</div>
+									<div class="small_font">Jul 27, 2011</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">4653</span>
+										<span class="link_color">Why is char[] preferred over String for passwords?</span>
+									</div>
+									<div class="small_font">Jan 16, 2012</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greyA.png" alt="GreyA">
+										<span class="greyA">3747</span>
+										<span class="link_color">What is the difference between String and string in C#?</span>
+									</div>
+									<div class="small_font">Oct 18, 2008</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">3302</span>
+										<span class="link_color">How do I call one constructor from another in Java?</span>
+									</div>
+									<div class="small_font">Nov 12, 2008</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">3114</span>
+										<span class="link_color">What are the correct version numbers for C#?</span>
+									</div>
+									<div class="small_font">Oct 29, 2008</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenQ.png" alt="GreenQ">
+										<span class="greenA">2819</span>
+										<span class="link_color">What are the correct version numbers for C#?</span>
+									</div>
+									<div class="small_font">Oct 29, 2008</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">2665</span>
+										<span class="link_color">How do I break out of nested loops in Java?</span>
+									</div>
+									<div class="small_font">May 20, 2009</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">2515</span>
+										<span class="link_color">What is a serialVersionUID and why should I use it?</span>
+									</div>
+									<div class="small_font">Nov 12, 2008</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">2505</span>
+										<span class="link_color">Difference between decimal, float and double in .NET?</span>
+									</div>
+									<div class="small_font">Mar 6, 2009</div>
+								</div>
+								<div class="posts justify display tags">
+									<div>
+										<img src="Assets/greenA.png" alt="GreenA">
+										<span class="greenA">1996</span>
+										<span class="link_color">Group by in LINQ</span>
+									</div>
+									<div class="small_font">Sep 6, 2011</div>
+								</div>
 							</div>
 						</div>
 						<div class="postlist">
-							Top Network posts
+							<div class="display justify">
+								<div>
+									Top Meta posts
+								</div>
+								<div>
+									<img src="Assets/qanda.png" alt="GreyA">
+								</div>
+							</div>
 							<div class="allposts">
-								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">870</span><a href="#">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</a></div>
-								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">821</span><a href="#">Jon Skeet Facts</a></div>
-								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">298</span><a href="#">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</a></div>
-								<div class="post tags"><img src="Assets/serverfault.png" alt="Server Fault"><span class="greyA">268</span><a href="#">Shell command to monitor changes in a file</a></div>
-								<div class="post tags"><img src="Assets/meta.png" alt="Meta"><span class="greyA">181</span><a href="#">Please show us when we lose an accepted answer</a></div>
+								<div class="post tags">
+									<img src="Assets/meta2.png" alt="Meta">
+									<span class="greyA">931</span>
+									<span class="link_color">Congratulations for reaching a million, Gordon Linoff!</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta2.png" alt="Meta">
+									<span class="greyA">806</span>
+									<span class="link_color">Stack Overflow question checklist</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta2.png" alt="Meta">
+									<span class="greyA">466</span>
+									<span class="link_color">Are we being "elitist"? Is there something wrong with that?</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta2.png" alt="Meta">
+									<span class="greyA">204</span>
+									<span class="link_color">What should I do about a user that I'm trying to help and is calling me stupid</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta2.png" alt="Meta">
+									<span class="greyA">169</span>
+									<span class="link_color">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms?</span>
+								</div>			 
+							</div>
+						</div>
+						<div class="postlist">
+							<div class="display justify">
+								<div>
+									Top Network posts
+								</div>
+								<div class="small_font pointer">
+									view all network posts
+								</div>
+							</div>
+							<div class="allposts">
+								<div class="post tags">
+									<img src="Assets/meta.png" alt="Meta">
+									<span class="greyA">870</span>
+									<span class="link_color">Allow an edit to notify downvoters: "I think I've fixed the issue now - please check"</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta.png" alt="Meta">
+									<span class="greyA">821</span>
+									<span class="link_color">Jon Skeet Facts</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta.png" alt="Meta">
+									<span class="greyA">298</span>
+									<span class="link_color">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/serverfault.png" alt="Server Fault">
+									<span class="greyA">268</span>
+									<span class="link_color">Shell command to monitor changes in a file</span>
+								</div>
+								<div class="post tags">
+									<img src="Assets/meta.png" alt="Meta">
+									<span class="greyA">181</span>
+									<span class="link_color">Please show us when we lose an accepted answer</span>
+								</div>
 							</div>	
 						</div>
 					</div>
 				</div>		
 			</div>
 		</div>
-		</div>
-		</div>
 		<div class="footer display">
 			<div class="col">
 				<img src="Assets/stackImage.png" alt="stack">
 			</div>
-			<div>
+			<div class="padding_footer">
           			<div class="footer_title">STACK OVERFLOW</div>
           			<div class="lists">Questions</div>
           			<div class="lists">Help</div>
         		</div>
-        		<div>
+        		<div class="padding_footer">
           			<div class="footer_title">PRODUCTS</div>
           			<div class="lists">Teams</div>
           			<div class="lists">Advertising</div>
           			<div class="lists">collectives</div>
           			<div class="lists">Talent</div>
         		</div>
-        		<div>
+        		<div class="padding_footer">
           			<div class="footer_title">COMPANY</div>
           			<div class="lists">About</div>
           			<div class="lists">Press</div>
@@ -329,7 +485,7 @@
           			<div class="lists">Cookie Settings</div>
           			<div class="lists">Cookie Policy</div>
         		</div>
-        		<div>
+        		<div class="padding_footer">
           			<div class="footer_title">STACK EXCHANGE NETWORK</div>
           			<div class="lists">Technology</div>
           			<div class="lists">Culture & recreation</div>
@@ -340,8 +496,8 @@
           			<div class="lists">API</div>
           			<div class="lists">Data</div>
         		</div>
-          		<div>
-				<div class="social display justify">
+          		<div class="padding_footer width_footer">
+				<div class="social display">
             				<div class="listSocial">Blog</div>
             				<div class="listSocial">Facebook</div>
             				<div class="listSocial">Twitter</div>
@@ -349,10 +505,9 @@
             				<div class="listSocial">Instagram</div>
           			</div>
           			<div class="license">
-            				<div class="listSocial">Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under <a href="#">CC BY-SA</a>. rev 2022.10.7.15380 </div>
+            				<div>Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under <a href="#">CC BY-SA</a>. rev 2022.10.7.15380 </div>
           			</div>
 			</div>
 		</div>
 	</body>
 </html>
-		
